@@ -541,13 +541,13 @@ body {
 }
 
 .card-img1{
-    background-image: url('/assets/img-torta15.jpg'); 
+    background-image: url('assets/img-torta15.jpg'); 
     background-position: 50%; 
     background-size: cover;
 }
 
 .card-img2{
-    background-image: url('/assets/img-evento15.jpg'); 
+    background-image: url('assets/img-evento15.jpg'); 
     background-position: 50%; 
     background-size: cover;
 }
