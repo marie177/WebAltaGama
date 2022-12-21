@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltaGama Eventos</title>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./library/particle.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="container-fluid">
+        <nav id="nav" class="flex font-poppins">
+
+            <div class="nav-brand">
+                <a href="#" class="text-dark text-lg font-bold">Alta Gama</a>
+            </div>
+
+            <div class="toggle-btn">
+                <button class="btn">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+            </div>
+
+            <div class="collapse flex-grow">
+                <ul class="flex">
+                    <li>
+                        <a href="#inicio" class="link"> Inicio </a>
+                    </li>
+
+                    <li>
+                        <a href="#nosotros" class="link"> Nosotros </a>
+                    </li>
+
+                    <li>
+                        <a href="#servicios" class="link"> Servicios </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#trabajos" class="link"> Trabajo </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#contacto" class="link"> Contacto </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-initial" onclick="goToContacto()">
+                <ul class="flex">
+                    <button class="btn btn-primary btn-shadow bg-gradient text-white text-uppercase" > Contratanos! </button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main id="site-main">
+
+        <div id="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <!-- Banner Area -->
+        <section class="banner-area font-poppins" id="inicio">
+            <div class="container mx-auto banner-title">
+                <div class="title">
+                    <!-- <span class="d-inline btn btn-primary bg-gradient-peach text-red animate__animated animate__fadeInDown">Digital Experience</span> -->
+                    <div class="py-2 branding text-dark text-lg sm-text-title font-bold">
+                        <!-- <span class="d-block animate__animated animate__fadeInDown animate__faster"> altagama eventos </span> -->
+                        <span class="d-block animate__animated animate__fadeInDown animate__fast">Alta Gama </span>
+                        <span class="d-block animate__animated animate__fadeInDown"> Eventos </span>
+                    </div>
+
+                    <div class=" border animate__animated animate__fadeInDown"></div>
+
+                    <div class="py-5 animate__animated animate__fadeInUp ">
+                        <p class="text-gray"> Somos una empresa nacida para la realización de eventos High Class</p>
+                        <p class="text-gray "> donde la exigencia del servicio supere a la normalidad.</p>
+                    </div>
+
+                    <div class="py-5 animate__animated animate__fadeInUp">
+                        <a href="#" class="btn btn-primary bg-gradient text-white btn-shadow"> Servicio de Calidad </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Banner Area -->
+
+        <!-- business Area   === agency-area -->
+        <section class="business-area">
+            <div class="container mx-auto text-center font-poppins">
+                <span class="text-red"> Contrate nuestros servicios </span>
+                <div class="area-title">
+                    <h1 class="text-lg text-dark">
+                        En cada Evento nos encargamos de brindar <br>
+                        resultados inolvidables!
+                    </h1>
+                </div>
+
+                <!-- <div class="grid cols-1 lg-cols-3 py-10">
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-bricks"></i>
+                        </div>
+
+                        <div class="text-center">
+                            <h4 class="text-md py-2"> Garantice sus Eventos </h4>
+                            <p class="text-gray"> Test1!! dddddddddddddddaaaa
+                                aaaaaaa
+                                aaaaaaaa!</p>
+                        </div>
+                    </div>
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-megaphone"></i>
+                        </div>
+
+                        <div class="text-center">
+                            <h4 class="text-md py-2"> Digital Marketing </h4>
+                            <p class="text-gray"> Test1!! dddddddddddddddaaaaaa
+                                aaaaaaa
+                                aaaaaaaa!</p>
+                        </div>
+                    </div>
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-mouse"></i>
+                        </div>
+
+                        <div class="text-center">
+                            <h4 class="text-md py-2"> Search Engine Optimization</h4>
+                            <p class="text-gray"> Test1!! ddddddddd
+                                aaaaaaaa!</p>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+        <!-- business Area -->
+
+        <!-- description-area == life-area -->
+        <section class="container mx-auto description-area" id="nosotros">
+            <div class="grid cols-1 lg-cols-2 text-center md-text-left">
+                <div class="grid-images">
+                    <div data-rellax-speed="2" class="item-one rellax"></div>
+                    <div data-rellax-speed="-1" class="item-two rellax"></div>
+                    <div data-rellax-speed="1" class="item-three rellax"></div>
+                </div>
+
+                <div class="py-10">
+                    <!-- <span class="d-inline btn btn-primary bg-gradient-peach text-red">Digital Experience</span> -->
+                    <div class="font-poppins">
+                        <h1 class="text-lg text-dark py-5">
+                            ¿Quienes somos?
+                        </h1>
+                        <div class="border"></div>
+
+                        <p class="py-5 text-gray">Alta Gama es una empresa Argentina, nacida para la realización de eventos High Class
+                            donde la exigencia
+                            del servicio busca superar a la normalidad. </p>
+                       
+                        <p class="text-gray py-5 "> Nuestro equipo está integrado por personal altamente calificado para
+                            eventos de carácter protocolar.
+                            Nuestro equipo de elaboración posee una gran experiencia en cocina Internacional, para
+                            brindar a nuestros Clientes la más variada oferta
+                            en platos típicos y tradicionales de cada país. <br>
+                            Por eso, somos el Catering elegido por las Embajadas Europeas radicadas en nuestro país.
+                        </p>
+
+                        <div class="py-5">
+                            <a href="#contacto" class="btn btn-primary bg-gradient btn-shadow text-white">Contratanos!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /description area -->
+
+        <!-- counting area -->
+        <section class="container mx-auto counting-area">
+            <div class="grid cols-1 lg-cols-2">
+                <div class="grid-one text-center md-text-left">
+                    <!-- <span class="d-inline btn btn-primary bg-gradient-peach text-red">Digital Experience</span> -->
+                    <div class="font-poppins">
+                        <h1 class="text-lg text-dark py-5">
+                            Nuestros servicios <br>
+                            brindados a lo <br>
+                            largo del tiempo
+                        </h1>
+
+                        <p class="text-gray mx-auto md-mx-initial">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur architecto
+                            libero, repellat incidunt ipsam? Repellendus obcaecati aliquam temporibus quas, saepe
+                            corporis eaque eius est, iusto delectus explicabo quisquam et, accusantium autem! Facere
+                            beatae laborum quod animi, blanditiis aperiam voluptas!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid-two">
+                    <div class="count-box">
+                        <div class="grid lg-cols-2 btn-shadow font-poppins">
+                            <div class="item1 text-center">
+                                <h1 class="text-dark text-xl"> +1000 </h1>
+                                <span class="text-gray"> Eventos Realizados </span>
+                            </div>
+
+                            <div class="item2 text-center">
+                                <h1 class="text-dark text-xl"> +10 </h1>
+                                <span class="text-gray">  Años de Experiencia </span>
+                            </div>
+
+                            <div class="item3 text-center">
+                                <h1 class="text-dark text-xl"> +500 </h1>
+                                <span class="text-gray"> Clientes </span>
+                            </div>
+
+                            <div class="item4 text-center">
+                                <h1 class="text-dark text-xl"> 100%  </h1>
+                                <span class="text-gray">Expectativas cumplidas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /counting area -->
+
+        <!-- card area -->
+        <section class="container mx-auto card-area py-10" id="servicios">
+            <div class="grid cols-1 lg-cols-3 font-poppins">
+                <div class="bg-gradient-peach rellax" data-rellax-speed="2">
+                    <div class="card px-10 py-10">
+                        <span class="d-block text-red text-xl">
+                            <i class="bi bi-app-indicator"></i>
+                        </span>
+                        <h2 class="text-dark"> Eventos Diplomáticos  </h2>
+
+                        <p class="py-5 text-gray">
+                            Nuestra gran experiencia nos permite ofrecer una organizacion y desarrollo de fiestas nacionales, coctails, conciertos e incluso la preparacion de almuerzos y desayunos de caracter protocolar.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-img1 rellax" data-rellax-speed="-1">
+                    <div class="card px-10 py-10">
+                        <span class="d-block text-red text-xl">
+                            
+                        </span>
+                        <h2 class="text-dark">  </h2>
+
+                        <p class="py-5 text-gray">
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-red rellax" data-rellax-speed="2">
+                    <div class="card px-10 py-10">
+                        <span class="d-block text-red text-xl">
+                            <i class="bi bi-building"></i>
+                        </span>
+                        <h2 class="text-dark"> Eventos Empresariales y Corporativos </h2>
+
+                        <p class="py-5 text-gray">
+                            Somos especialistas en la organizacion y el desarrollo de jornadas de trabajo en donde nuestro Servicio abarca el dia completo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-yellow rellax" data-rellax-speed="2">
+                    <div class="card px-10 py-10">
+                        <span class="d-block text-red text-xl">
+                            <i class="bi bi-circle"></i>
+                        </span>
+                        <h2 class="text-dark"> Eventos Gubernamentales </h2>
+
+                        <p class="py-5 text-gray">
+                            Somos una Empresa proveedora del Estado, por lo cual ofrecemos una amplia gama de Serviciosp para Ministerios, Municipios, Gobiernos Provinciales, inauguraciones, presentaciones, entre otros.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-purple rellax" data-rellax-speed="1">
+                    <div class="card px-10 py-10">
+                        <span class="d-block text-red text-xl">
+                            <i class="bi bi-chevron-bar-expand"></i>
+                        </span>
+                        <h2 class="text-dark">  Eventos Sociales y Familiares</h2>
+
+                        <p class="py-5 text-gray">
+                            Contar con una gran Experiencia en Eventos hace que podamos organizar las Fiestas de Cumpleaños que soñaste o ese Casamiento que esperabas que fuera unico y memorable.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-img2 rellax " data-rellax-speed="2">
+                    <div class="card px-10 py-10">
+                        <span class="d-block text-red text-xl"> </span>
+                        <h2 class="text-dark"> </h2>
+
+                        <p class="py-5 text-gray">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /card area -->
+
+        <!-- recent work area -->
+        <section class="container mx-auto py-10 recent-work-area" id="trabajos">
+            <div class="title">
+                <!-- <span class="d-inline btn btn-primary bg-gradient-peach text-red">Digital Experience</span> -->
+                <div class="font-poppins">
+                    <h1 class="text-lg text-dark py-5">
+                        Nuestros eventos
+                         <!-- <br>
+                        we really proud of <br> -->
+                    </h1>
+                </div>
+
+                <div class="images-flex font-poppins">
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/evento2.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Photo Retouching </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/brownie.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Apple Iphone </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/chef1.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Yoga </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/cocineras.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Recent News </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/evento1.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> New Apps</h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/embajada2.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> iPHONE 13PRO</h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/embajada1.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Share Market </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/pinchos.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Desktop </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/bocadito1.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Share Market </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/eventos/mozo1.jfif" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Share Market </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInUp">
+                        <img src="./assets/Personl.jpg" alt="img1" class="w-100">
+                        <!-- <h3 class="text-dark"> Share Market </h3>
+                        <span class="text-gray"> Branding </span> -->
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- /recent work area -->
+
+        <!-- article area -->
+
+        <!-- <section class="article-area container mx-auto py-10">
+            <div class="area-title text-center font-poppins">
+                <span class="text-red"> Our Recent Articles </span>
+
+                <h1 class="text-lg text-dark"> Articles daily updated</h1>
+            </div>
+
+            <div class="grid cols-1 lg-cols-3 font-poppins py-10">
+                <div class="card animate__animated animate__fadeInLeft">
+                    <article class="btn-shadow">
+                        <img src="./assets/articles/img1.png" class="w-100" alt="">
+
+                        <div class="px-5 py-5">
+                            <span class="text-gray"> Category 6 hours ago </span>
+                            <a href="#">
+                                <h2 class="text-dark"> Freee adaiosda sadnas business</h2>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="card animate__animated animate__fadeInLeft">
+                    <article class="btn-shadow">
+                        <img src="./assets/articles/img2.png" class="w-100" alt="">
+
+                        <div class="px-5 py-5">
+                            <span class="text-gray"> Category 6 hours ago </span>
+                            <a href="#">
+                                <h2 class="text-dark"> Freee adaiosda sadnas business</h2>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="card animate__animated animate__fadeInLeft">
+                    <article class="btn-shadow">
+                        <img src="./assets/articles/img3.png" class="w-100" alt="">
+
+                        <div class="px-5 py-5">
+                            <span class="text-gray"> Category 6 hours ago </span>
+                            <a href="#">
+                                <h2 class="text-dark"> Freee adaiosda sadnas business</h2>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- /article area -->
+
+        <!-- ready area -->
+        <section class="ready-area container mx-auto py-5 animate__animated animate__zoomIn" id="contacto">
+            <div class="flex flex-wrap font-poppins btn-shadow py-10 sm-px-10">
+                <div class="w-50">
+                    <h1 class="text-lg sm-text-xl text-dark">Queres contratar nuestros Servicios? </h1>
+                    <p class="text-gray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquid quam neque cupiditate
+                        molestiae natus, tempora sapiente est obcaecati
+                    </p>
+                </div>
+
+                <div class="cols py-5">
+                    <a href="https://wa.me/541157177782" class="btn-shadow text-white btn btn-primary d-block text-center bg-gradient">
+                        <span class="text-uppercase text-sm"> Contactanos haciendo Click! </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /ready area -->
+    </main>
+    <!-- /MAIN SECTION -->
+
+    <!-- /FOOTER SECTION -->
+    <footer id="footer">
+        <section class="container mx-auto py-10">
+            <div class="grid md-cols-2 lg-cols-4 font-poppins">
+                <div class="text-gray text-center md-text-left">
+                    <span>
+                        Buenos Aires, Argentina
+                    </span>
+
+                    <span class="d-block">
+                        47406830
+                    </span>
+
+                    <span class="text-red">
+                        altagamaeventos@live.com
+                    </span>
+                </div>
+
+                <div class="text-gray text-center md-text-left">
+                    <h3 class="text-dark"> About </h3>
+
+                    <div class="py-5">
+                        <a href="#" class="d-block">
+                            <span class="text-gray">About Us</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Blog</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">PortFolio</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Careers</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Partners</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-gray text-center md-text-left">
+                    <h3 class="text-dark"> Services </h3>
+
+                    <div class="py-5">
+                        <a href="#" class="d-block">
+                            <span class="text-gray">eCommerce</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Branding</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Strategy</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Design</span>
+                        </a>
+
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Digital Marketing</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-gray text-center md-text-left">
+                    <h3 class="text-dark">
+                        Newsletter
+                    </h3>
+
+                    <p>
+                        Suscribe our Newsletter to get the <br>
+                        latest news & updates.
+                    </p>
+
+                    <div class="flex py-5">
+                        <input type="text" class="subscribe-text" placeholder="Enter Email Address">
+                        <button class="btn btn-go">Go</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyrights font-poppins">
+                <a href="https://marianellagottig.com/">
+                    <p class="text-gray py-5 text-center">
+                        © 2022 Marianella Gottig - Hecho con 🖤
+                    </p>
+                </a>
+            </div>
+        </section>
+    </footer>
+    <!-- /FOOTER SECTION -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+        integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+        integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
