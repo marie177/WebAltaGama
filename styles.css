@@ -631,3 +631,7 @@ body {
     border-bottom: 2px solid var(--text-dark);
     width: 10%;
 }
+
+.text-align-justify{
+text-align: justify;
+}
