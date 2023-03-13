@@ -299,6 +299,8 @@ body {
         padding-left: 3.5rem;
         padding-right: 3.5rem;
     }
+    
+
 }
 
 /* for large screen md(768px) */
@@ -317,6 +319,10 @@ body {
 
     .md-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .banner-area{
+       background-image: none;
     }
 }
 
@@ -360,6 +366,13 @@ body {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
+
+}
+
+@media(max-width: 1280px){
+    .banner-area{
+        background-image: none !important;
+    }
 }
 
 /* for large screen xl(1280px) */
@@ -369,7 +382,7 @@ body {
     }
 
     #nav {
-        background: transparent !important;
+        background: #ffffff !important;
     }
 
     #nav .flex-initial ul button {
@@ -437,6 +450,7 @@ body {
     background: var(--bg-cover) no-repeat;
     background-position-x: right;
     z-index: -99;
+    background-size: 50% !important;
 }
 
 #site-main .banner-area .banner-title {

@@ -22,6 +22,5 @@ var rellax = new Rellax('.rellax',{
 })
 
 function goToContacto(){
-    debugger;
     window.scrollTo(0, document.getElementById('contacto').offsetTop)
 }
